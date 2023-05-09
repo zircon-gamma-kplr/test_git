@@ -1,0 +1,40 @@
+GIT
+Objectif
+Apprendre comment commettre des changements dans des dépôts Git.
+
+Instructions
+1-Créez votre compte GitHub
+2-Configurer Git.
+
+$ git config --global user.email zircon.gamma@training.kplr.fr
+
+
+3-Créez un nouveau répertoire sur votre ordinateur local.
+
+4-Transformez-le en dépôt Git.
+
+$ git init
+Reinitialized existing Git repository in C:/Users/DELL/Desktop/test_git/.git/
+
+
+5-Créez un nouveau fichier nommé "file" contenant le texte "hello commit".
+
+6-Ajoutez le fichier "file" a l'index Git.
+git
+
+$ git add -A
+
+7-Commitez votre nouveau fichier.
+
+$ git commit -m "2nd commit"
+[master dcc7707] 2nd commit
+ 2 files changed, 23 insertions(+), 2 deletions(-)
+ create mode 100644 file.txt
+
+8-Exécutez une commande Git pour vérifier que votre commit a bien été enregistré.
+
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+
